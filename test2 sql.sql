@@ -35,12 +35,3 @@ declare
 	 return @tax
 	 end
 	 select title_id,qty,dbo.function_calculatetax(qty) as Tax from sales;
-
-select *from sales
-
-
-
-
-
-
-
